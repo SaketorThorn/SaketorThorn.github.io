@@ -1,0 +1,560 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #3D509F;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 300px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 300px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/TokarevAlexey.png) 100% 100%/auto 100% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container{
+    float: left;
+    margin: 200px 0px 0px 200px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.about{
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #263244
+}
+
+.line_image{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+.warriorpainter_image{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 46px;
+}
+
+.about_text_block{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.about_text{
+    display: flex;
+    justify-content: center;
+}
+
+.about_text_paragraf{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_text{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.download_resume_button{
+    display: flex;
+    justify-content: center;   
+}
+
+.download_resume_button input{
+    height: 34px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 0px 0px 100px 0px;
+}
+
+.skills{
+    
+}
+
+.skills_box{
+    display: flex;
+    flex-direction: column; 
+}
+
+.skills_box_header{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #cf7600;
+}
+
+.skills_box_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills_box_line{
+    display: flex;
+    justify-content: center;
+    }
+
+.skills_box_image{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.skills_box_image_jpg{
+    display: flex;
+    justify-content: center;
+    height: 51px;
+    width: 51px;
+}
+
+.web_desighn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.visual_desighn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.product_desighn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.visual_tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cases{
+    
+}
+
+.contactsLinks{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 36px;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.carousel-inner{
+    max-width: 900px;
+    height: 535px;
+}
+
+.calculator{
+    
+}
+
+.statistics{
+    
+}
+
+.statistics_box{
+    display: flex;
+    justify-content: center;
+}
+
+.statistics_box_image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.happy_clients_logo, working_houres_logo, projects_finished_logo, achivments_logo{
+    display: flex;
+    justify-content: center;
+    height: 51px;
+    width: 51px;
+}
+
+.statistics_box_header{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+
+.statistics_box_text{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.happy_clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.working_houres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.projects_finished{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.achivments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.feedback{
+    
+}
+
+.profile_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.profile_image_logo{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+}
+
+.profile_box_text{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.profile_box_text_name{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-bottom: 180px;
+}
+
+.contacts{
+    background: #f5d8c4;
+}
+
+.contacts_text_block{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts_text_time{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.contacts_box{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.email_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;   
+}
+
+.phone_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.contacts_text{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.location_icon, email_logo, phone_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.massege_form{
+    background: #f5d8c4;
+}
+
+.massege_form_header{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 96px;
+}
+
+.massege_form_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.massege_form_box_name_mail{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 14px;
+    
+}
+
+.massege_form_box_name_bar{
+    display: flex;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.massege_form_box_mail_bar{
+    display: flex;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.massege_form_box_name{
+    height: 44px;
+    text-align: left;
+    border: 2px;
+    background: #d0d2d7;
+    border-radius: 5px;
+    color: #959699;
+    font-size: 13px;
+    width: 352px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.massege_form_box_mail{
+    height: 44px;
+    text-align: left;
+    border: 2px;
+    background: #d0d2d7;
+    border-radius: 5px;
+    color: #959699;
+    font-size: 13px;
+    width: 352px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.massege_form_box_message_bar{
+    display: flex;
+    padding-bottom: 14px;
+}
+
+.massege_form_box_message{
+    height: 92px;
+    text-align: left;
+    border: 2px;
+    background: #d0d2d7;
+    border-radius: 5px;
+    color: #959699;
+    font-size: 13px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    width: 734px
+}
+
+.massege_form_box_send input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.massege_form_icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 66px;
+}
+
+.facebook_icon{
+    display: flex;
+    justify-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+} 
+
+.telegram_icon{
+    display: flex;
+    justify-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.github_icon{
+    display: flex;
+    justify-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.behance_icon_massege{
+    display: flex;
+    justify-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.downhall{
+    display: flex;
+    justify-content: center;
+    background: #3D509F;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+
+.downhall_text_box{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #FFFFFF;
+}

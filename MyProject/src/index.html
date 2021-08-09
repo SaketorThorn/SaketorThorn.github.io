@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/">
+    
     <title>TokarevAlexey</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -44,7 +47,11 @@
              <img class="warriorpainter" src="./img/HorsemanLogo.png" alt="">
          </div>
          <div class="about_text_block">
-             <p class="about_text">Закончил университет Сассекса в Великобритании с дипломом Бакалавра Искусств в 2019 году.<br>Работал в компании Гринатом в должности старшего специалиста отдела коммуникаций в течении года.<br>Прошел обучение на факультете дизайна в университете Geek Brains в 2021.</p>
+             <div class="about_text_paragraf">
+                 <p class="about_text">Закончил университет Сассекса в Великобритании с дипломом Бакалавра Искусств в 2019 году.</p>
+                 <p class="about_text">Работал в компании Гринатом в должности старшего специалиста отдела коммуникаций в течении года.</p>    
+                 <p class="about_text">Прошел обучение на факультете дизайна в университете Geek Brains в 2021.</p>    
+             </div>      
          </div>
          <div class="download_resume_button">
              <input type="submit" value="Скачать резюме">
@@ -59,54 +66,61 @@
              <img class="line" src="./img/Header-line.png" alt="">
         </div>
         <div class="skills_box">
-             <div class="web_desighn">
-                <div class="skills_box_image">    
-                    <img class="macbook_logo" src="./img/Macbook-line.png" alt="">
+            <div class="skills_box_line"> 
+                <div class="web_desighn">
+                    <div class="skills_box_image">    
+                        <img class="skills_box_image_jpg" src="./img/Macbook-line.png" alt="">
+                    </div>
+                    <div class="skills_box_header">  
+                        <h4>Веб-дизайн</h4>
+                    </div>
+                        <p class="skills_box_text">Проектирование лендинга,</p>
+                        <p class="skills_box_text">разработка дизайна сайта</p>
                 </div>
-                <div class="skills_box_header">  
-                    <h4>Веб-дизайн</h4>
+                <div class="layout">
+                    <div class="skills_box_image">    
+                        <img class="skills_box_image_jpg" src="./img/Code-s-slash-line.png" alt="">
+                    </div>
+                    <div class="skills_box_header">
+                        <h4>Разработка</h4>
+                    </div>
+                        <p class="skills_box_text">Адаптивный дизайн,</p>
+                        <p class="skills_box_text">основы верстки</p>
                 </div>
-                    <p class="skills_box_text">Проектирование лендинга,<br>разработка дизайна сайта</p>
-             </div>
-             <div class="layout">
-                <div class="skills_box_image">    
-                    <img class="layout_logo" src="./img/Code-s-slash-line.png" alt="">
+                <div class="visual_desighn">
+                    <div class="skills_box_image">    
+                        <img class="skills_box_image_jpg" src="./img/Shape-line.png" alt="">
+                     </div>
+                     <div class="skills_box_header">
+                         <h4>Графический дизайн</h4>
+                     </div>
+                         <p class="skills_box_text">Элементы фирменного стиля,</p>
+                         <p class="skills_box_text">визуальные концепции</p>
                 </div>
-                <div class="skills_box_header">
-                    <h4>Разработка</h4>
+            </div>
+            <div class="skills_box_line">
+                <div class="product_desighn">
+                    <div class="skills_box_image">    
+                        <img class="skills_box_image_jpg" src="./img/Seedling-line.png" alt="">
+                    </div>
+                    <div class="skills_box_header">
+                        <h4>Продуктовый дизайн</h4>
+                    </div>
+                        <p class="skills_box_text">UX/UI-исследования</p>
                 </div>
-                    <p class="skills_box_text">Адаптивный дизайн,<br>основы верстки</p>
-             </div>
-             <div class="visual_desighn">
-                 <div class="skills_box_image">    
-                    <img class="visual_desighn_logo" src="./img/Shape-line.png" alt="">
-                 </div>
-                 <div class="skills_box_header">
-                     <h4>Графический дизайн</h4>
-                 </div>
-                     <p class="skills_box_text">Элементы фирменного стиля,<br>визуальные концепции</p>
-             </div>
-             <div class="product_desighn">
-                 <div class="skills_box_image">    
-                    <img class="product_desighn_logo" src="./img/Seedling-line.png" alt="">
-                 </div>
-                 <div class="skills_box_header">
-                     <h4>Продуктовый дизайн</h4>
-                 </div>
-                     <p class="skills_box_text">UX/UI-исследования</p>
-             </div>
-             <div class="visual_tools">
-                 <div class="skills_box_image">    
-                    <img class="product_desighn_logo" src="./img/Aliens-line.png" alt="">
-                 </div>
-                 <div class="skills_box_header">  
-                     <h4>Графические инструменты</h4>
-                 </div>   
-                     <p class="skills_box_text">Adobe InDesign, Adobe Ilustrator,<br>Adobe Photoshop, Figma</p>
-             </div>           
+                <div class="visual_tools">
+                    <div class="skills_box_image">    
+                        <img class="skills_box_image_jpg" src="./img/Aliens-line.png" alt="">
+                    </div>
+                    <div class="skills_box_header">  
+                        <h4>Графические инструменты</h4>
+                    </div>   
+                        <p class="skills_box_text">Adobe InDesign, Adobe Ilustrator,</p>
+                        <p class="skills_box_text">Adobe Photoshop, Figma</p>
+                </div>           
+            </div>
         </div>
-    </div>
-          
+    </div>      
     <div class="cases">
          <div class="header">
              <h3>КЕЙСЫ</h3>
@@ -241,8 +255,9 @@
              <div class="profile_image">
                 <img class="profile_image_logo" src="./img/avatardefault.png" alt="">
              </div>
-             <p class="profile_box_text">За время работы в компании Алексей зарекомендовал себя клиентоориентированым, добросовестным работником,<br>ориентированным на результат и умеющим работать в команде.</p>
-             <p class="profile_box_text">Михаил, Ген директор ЦО “Гринатом”.</p>
+             <p class="profile_box_text">За время работы в компании Алексей зарекомендовал себя клиентоориентированым, добросовестным работником,</p>
+             <p class="profile_box_text">ориентированным на результат и умеющим работать в команде.</p>
+             <p class="profile_box_text_name">Михаил, Ген директор ЦО “Гринатом”.</p>
          </div>    
       </div>       
     
@@ -254,7 +269,7 @@
              <img class="line" src="./img/Header-line.png" alt="">
          </div>
          <div class="contacts_text_block">
-             <p class="contacts_text">Рабочее время с 10.00 по 18.00 ежедневно, кроме выходных</p>
+             <p class="contacts_text_time">Рабочее время с 10.00 по 18.00 ежедневно, кроме выходных</p>
          </div>
          <div class="contacts_box">
              <div class="location">
@@ -287,22 +302,32 @@
                  <h5>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h5>
              </div>
              <div class="massege_form_box">
+                <div class="massege_form_box_name_mail">
+                <div class="massege_form_box_name_bar">
                  <div class="massege_form_box_name">
                      <form action="#">  
                          <input type="text" name="text_input" value="" placeholder="Имя">
                       </form> 
                  </div>
-                 <div class="massege_form_box_mail">
+                 </div>
+                    <div class="massege_form_box_mail_bar">
+                    <div class="massege_form_box_mail">
                      <form action="#">  
                          <input type="text" name="text_input" value="" placeholder="Email">
-                      </form> 
+                     </form> 
+                 </div>    
                  </div>
-                 <div class="massege_form_box_message">
+                 </div>
+                 <div class="massege_form_box_message_bar">
+                    <div class="massege_form_box_message">
                      <form action="#">  
                          <input type="text" name="text_input" value="" placeholder="Сообщение">
-                      </form> 
+                      </form>
+                    </div>   
                  </div>
-                 <input type="submit" value="Отправить"> 
+                 <div class="massege_form_box_send">
+                 <input type="submit" value="Отправить">
+                 </div> 
              </div>
              <div class="massege_form_icons">
                  <div class="facebook_icon">
